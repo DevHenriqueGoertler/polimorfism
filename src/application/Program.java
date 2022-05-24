@@ -43,13 +43,12 @@ public class Program {
 				emps.add(emp);
 			}
 		}
-			
-			System.out.println();
-			System.out.println("PAYMENTS:");
-			for(Employee e : emps) {
-				System.out.println(e);
-			
-			
+
+		System.out.println();
+		System.out.println("PAYMENTS:");
+		for (Employee e : emps) {
+			System.out.println(e);
+
 		}
 
 		sc.close();

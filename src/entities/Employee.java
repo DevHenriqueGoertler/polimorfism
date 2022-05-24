@@ -1,11 +1,11 @@
 package entities;
 
 public class Employee {
-	
+
 	private String name;
 	protected Integer hours;
 	protected Double valuePerHour;
-	
+
 	public Employee() {
 	}
 
@@ -38,14 +38,12 @@ public class Employee {
 	public void setValuePerHour(Double valuePerHour) {
 		this.valuePerHour = valuePerHour;
 	}
-	
+
 	public Double payment() {
 		return valuePerHour * hours;
 	}
-	
+
 	public String toString() {
-		return name
-			+ " - $ "
-			+ String.format("%.2f", payment());
+		return name + " - $ " + String.format("%.2f", payment());
 	}
 }
